@@ -1,21 +1,73 @@
 /* General */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: linear-gradient(45deg, goldenrod, orange);
-  text-align: center;
+  background: linear-gradient(160deg, #0080C0, white);
+  height: 100vh;
 }
 
 h1 {
   text-transform: uppercase;
-  color: red;
+  color: #A1E2FF;
+  font-size: 45px;
+  cursor: pointer;
 }
 
 h2,
 h3 {
-  color: green;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
 }
 
-p {
-  color: #fff;
+h3 {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+/* Utilities */
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.disp-flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Nav-bar */
+
+.nav-bar {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Box */
+
+.box {
+  width: 600px;
+  height: 400px;
+}
+
+.box-2,
+.box-3 {
+  background: #A1E2FF;
+}
+
+.box-1,
+.box-4 {
+  background: #C2EFFF;
 }
 

@@ -1,21 +1,64 @@
 // Var
-$back-col: linear-gradient(45deg,goldenrod,orange);
-$primary-col: red;
-$second-col: green;
-$p-col: #fff;
+$back-col: linear-gradient(160deg,#0080C0,white);
+$box-col1: #A1E2FF;
+$box-col2: #C2EFFF;
+$white-col: #fff;
 
 /* General */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   background: $back-col;
-  text-align: center;
+  height: 100vh;
 }
 h1{
  text-transform: uppercase;
- color: $primary-col;
+ color: $box-col1;
+ font-size: 45px;
+ cursor: pointer;
 }
 h2,h3{
-  color: $second-col;
+  color: $white-col;
+  font-size: 40px;
+  cursor: pointer;
 }
-p{
-  color: $p-col;
+h3{
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+/* Utilities */
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.disp-flex{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Nav-bar */
+.nav-bar{
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Box */
+.box{
+  width: 600px;
+  height: 400px;
+}
+.box-2, .box-3{
+  background: $box-col1;
+}
+.box-1, .box-4{
+  background: $box-col2;
 }

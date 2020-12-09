@@ -115,8 +115,8 @@ console.log('JS test');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/ilariagalliano/Desktop/html-sass-first/html-sass-first/src/js/main.js */"./src/js/main.js");
-module.exports = __webpack_require__(/*! /Users/ilariagalliano/Desktop/html-sass-first/html-sass-first/src/scss/main.scss */"./src/scss/main.scss");
+__webpack_require__(/*! /Users/ilariagalliano/Desktop/html-sass-first-/html-sass-first/html-sass-first/src/js/main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! /Users/ilariagalliano/Desktop/html-sass-first-/html-sass-first/html-sass-first/src/scss/main.scss */"./src/scss/main.scss");
 
 
 /***/ })
