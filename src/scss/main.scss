@@ -1,0 +1,21 @@
+// Var
+$back-col: linear-gradient(45deg,goldenrod,orange);
+$primary-col: red;
+$second-col: green;
+$p-col: #fff;
+
+/* General */
+body{
+  background: $back-col;
+  text-align: center;
+}
+h1{
+ text-transform: uppercase;
+ color: $primary-col;
+}
+h2,h3{
+  color: $second-col;
+}
+p{
+  color: $p-col;
+}

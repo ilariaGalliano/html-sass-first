@@ -1,0 +1,21 @@
+/* General */
+
+body {
+  background: linear-gradient(45deg, goldenrod, orange);
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: red;
+}
+
+h2,
+h3 {
+  color: green;
+}
+
+p {
+  color: #fff;
+}
+
