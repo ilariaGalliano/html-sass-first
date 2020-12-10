@@ -8,6 +8,7 @@
 
 body {
   background: linear-gradient(160deg, #0080C0, white);
+  background-attachment: fixed;
   height: 100vh;
 }
 

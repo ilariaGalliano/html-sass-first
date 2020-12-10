@@ -12,6 +12,7 @@ $white-col: #fff;
 }
 body{
   background: $back-col;
+  background-attachment: fixed;
   height: 100vh;
 }
 h1{
